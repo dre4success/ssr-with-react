@@ -7,6 +7,8 @@ const Home = () => {
       <button onClick={() => console.log('hi there')}>Press Me!</button>
     </div>
   );
-}
+};
 
-export default Home;
+export default {
+  component: Home
+};
